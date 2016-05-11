@@ -12,4 +12,4 @@ RUN apk add -U curl make perl-io-socket-ssl \
  && rm -rf /var/cache/apk/*
 
 ENTRYPOINT []
-CMD ["ddclient", "-foreground", "-daemon 1800"]
+CMD ["ddclient", "-foreground", "-daemon", "1800"]
